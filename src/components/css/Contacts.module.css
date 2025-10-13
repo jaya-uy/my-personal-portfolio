@@ -1,0 +1,28 @@
+.main {
+  background: #e8e7e7;
+  padding: 40px 60px;
+}
+.main h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fc9105;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container a {
+  font-size: 24px;
+}
+.container a span {
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    background: #e8e7e7;
+    padding: 40px 40px;
+    overflow: hidden;
+  }
+}

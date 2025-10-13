@@ -1,0 +1,18 @@
+.main {
+  background: #9b8384;
+  padding: 40px 60px;
+}
+.main h2.header {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fc9105;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.container .projectCard {
+  width: 150px;
+  height: 150px;
+  border: solid 2px;
+}
